@@ -1,0 +1,20 @@
+/*
+ * ====================
+ * file: main.c
+ * date: 2019 01 05
+ * ====================
+ */
+
+#include <stdio.h>
+#include <windows.h>
+
+void main(void)
+{
+	printf("====================\n");
+	printf("Name: my_program_001\n");
+	printf("Date: 2019 01 05\n");
+	printf("====================\n");
+
+	getchar();
+
+}

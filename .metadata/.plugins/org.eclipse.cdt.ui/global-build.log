@@ -1,0 +1,175 @@
+08:37:04 **** Rebuild of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c:11:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main(void)
+      ^~~~
+gcc -o my_program_001.exe "src\\main.o" 
+08:37:53 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+08:38:57 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+08:48:13 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:30:9: error: expected expression before '%' token
+  printf(%d\t%d\n,farh,celsius);
+         ^
+..\src\main.c:30:11: error: stray '\' in program
+  printf(%d\t%d\n,farh,celsius);
+           ^
+..\src\main.c:30:15: error: stray '\' in program
+  printf(%d\t%d\n,farh,celsius);
+               ^
+..\src\main.c:19:12: warning: variable 'celsius' set but not used [-Wunused-but-set-variable]
+  int farh, celsius;
+            ^~~~~~~
+08:49:22 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+08:57:05 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+08:57:18 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+08:58:35 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:30:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("%6d\t%6d\n",farh,celsius);
+          ~~^         ~~~~
+          %6f
+..\src\main.c:30:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("%6d\t%6d\n",farh,celsius);
+               ~~^         ~~~~~~~
+               %6f
+gcc -o my_program_001.exe "src\\main.o" 
+08:59:24 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:30:15: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("%6.00d\t%6.00d\n",farh,celsius);
+          ~~~~~^            ~~~~
+          %6.00f
+..\src\main.c:30:23: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("%6.00d\t%6.00d\n",farh,celsius);
+                  ~~~~~^         ~~~~~~~
+                  %6.00f
+gcc -o my_program_001.exe "src\\main.o" 
+08:59:38 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:30:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("%6.0d\t%6.0d\n",farh,celsius);
+          ~~~~^           ~~~~
+          %6.0f
+..\src\main.c:30:21: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+  printf("%6.0d\t%6.0d\n",farh,celsius);
+                 ~~~~^         ~~~~~~~
+                 %6.0f
+gcc -o my_program_001.exe "src\\main.o" 
+08:59:56 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+09:00:08 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+09:03:18 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+09:03:37 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+09:03:53 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+09:04:55 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:30:12: warning: format '%o' expects argument of type 'unsigned int', but argument 2 has type 'double' [-Wformat=]
+  printf("%6o\t%6.2f\n",farh,celsius);
+          ~~^           ~~~~
+          %6f
+gcc -o my_program_001.exe "src\\main.o" 
+09:07:11 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+09:07:54 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+09:29:23 **** Rebuild of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:33:53: error: expected ';' before '}' token
+   printf("%6d \t %6.1f \n", fff, (5.0/9.0)*(fff-32))
+                                                     ^
+                                                     ;
+  }
+  ~                                                   
+..\src\main.c:20:18: warning: variable 'step' set but not used [-Wunused-but-set-variable]
+  int lower,upper,step;
+                  ^~~~
+..\src\main.c:20:12: warning: variable 'upper' set but not used [-Wunused-but-set-variable]
+  int lower,upper,step;
+            ^~~~~
+..\src\main.c:19:14: warning: unused variable 'celsius' [-Wunused-variable]
+  float farh, celsius;
+              ^~~~~~~
+..\src\main.c:19:8: warning: variable 'farh' set but not used [-Wunused-but-set-variable]
+  float farh, celsius;
+        ^~~~
+09:29:52 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:20:18: warning: variable 'step' set but not used [-Wunused-but-set-variable]
+  int lower,upper,step;
+                  ^~~~
+..\src\main.c:20:12: warning: variable 'upper' set but not used [-Wunused-but-set-variable]
+  int lower,upper,step;
+            ^~~~~
+..\src\main.c:19:14: warning: unused variable 'celsius' [-Wunused-variable]
+  float farh, celsius;
+              ^~~~~~~
+..\src\main.c:19:8: warning: variable 'farh' set but not used [-Wunused-but-set-variable]
+  float farh, celsius;
+        ^~~~
+gcc -o my_program_001.exe "src\\main.o" 
+09:36:37 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:20:18: warning: variable 'step' set but not used [-Wunused-but-set-variable]
+  int lower,upper,step;
+                  ^~~~
+..\src\main.c:20:12: warning: variable 'upper' set but not used [-Wunused-but-set-variable]
+  int lower,upper,step;
+            ^~~~~
+..\src\main.c:19:14: warning: unused variable 'celsius' [-Wunused-variable]
+  float farh, celsius;
+              ^~~~~~~
+..\src\main.c:19:8: warning: variable 'farh' set but not used [-Wunused-but-set-variable]
+  float farh, celsius;
+        ^~~~
+gcc -o my_program_001.exe "src\\main.o" 

@@ -1,0 +1,38 @@
+/*
+ * ====================
+ * file: main.c
+ * date: 2019 01 05
+ * ====================
+ */
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <windows.h>
+
+int main(void){
+
+	printf("====================\n");
+	printf("Name: my_program_001\n");
+	printf("Date: 2019 01 05\n");
+	printf("====================\n");
+
+	float farh, celsius;
+	int lower,upper,step;
+
+	lower = 0;
+	upper = 300;
+	step = 20;
+
+	farh = lower;
+
+	while(farh<=upper){
+	celsius = 5*(farh-32)/9;
+	printf("%6d\t%6d\n",farh,celsius);
+	farh=farh+step;
+	}
+
+
+	getchar();
+
+	return 0;
+}
