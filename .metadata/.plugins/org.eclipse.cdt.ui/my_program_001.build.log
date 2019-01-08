@@ -1,20 +1,7 @@
-09:36:37 **** Incremental Build of configuration Release for project my_program_001 ****
+16:30:18 **** Incremental Build of configuration Release for project my_program_001 ****
 Info: Internal Builder is used for build
 gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
-..\src\main.c: In function 'main':
-..\src\main.c:20:18: warning: variable 'step' set but not used [-Wunused-but-set-variable]
-  int lower,upper,step;
-                  ^~~~
-..\src\main.c:20:12: warning: variable 'upper' set but not used [-Wunused-but-set-variable]
-  int lower,upper,step;
-            ^~~~~
-..\src\main.c:19:14: warning: unused variable 'celsius' [-Wunused-variable]
-  float farh, celsius;
-              ^~~~~~~
-..\src\main.c:19:8: warning: variable 'farh' set but not used [-Wunused-but-set-variable]
-  float farh, celsius;
-        ^~~~
 gcc -o my_program_001.exe "src\\main.o" 
 
-09:36:38 Build Finished. 0 errors, 4 warnings. (took 827ms)
+16:30:18 Build Finished. 0 errors, 0 warnings. (took 807ms)
 

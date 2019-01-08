@@ -1,0 +1,32 @@
+/*
+ * ====================
+ * file: main.c
+ * date: 2019 01 05
+ * ====================
+ */
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <windows.h>
+
+int main(void){
+
+	printf("\n");
+	printf("====================\n");
+	printf("Name: my_program_001\n");
+	printf("====================\n");
+	printf("\n");
+
+
+	int c;
+
+	while(c!=EOF){
+		c=getchar();
+		if(c!=' '){
+		putchar(c);
+		}
+	}
+
+	getchar(); //Wait for enter
+	return 0;
+}

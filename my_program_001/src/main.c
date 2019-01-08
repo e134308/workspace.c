@@ -9,39 +9,45 @@
 #include <stdio.h>
 #include <windows.h>
 
+int Fibonacci(int n){
+	if(n==0) return 0;
+	if(n==1) return 1;
+	return (Fibonacci(n-2)+Fibonacci(n-1));
+}
+
+
 int main(void){
 
+	printf("\n");
 	printf("====================\n");
 	printf("Name: my_program_001\n");
-	printf("Date: 2019 01 05\n");
 	printf("====================\n");
+	printf("\n");
 
-	float farh, celsius;
-	int lower,upper,step;
-	int fff;
 
-	lower = 0;
-	upper = 300;
-	step = 20;
 
-	farh = lower;
+	int n,i;
+	double a[3];
 
-	printf("%8s\t%8s\n","farh","celsius");
-	printf("%8s\t%8s\n","--------","--------");
+	p1:
+	a[0]=0;
+	a[1]=1;
+	a[2]=0;
+	printf("\n");
+	printf("Enter n fibonacci\n");
+	scanf("%d",&n);
 
-	for(fff=300;fff>=0;fff=fff-20){
-		printf("%6d \t %6.1f \n", fff, (5.0/9.0)*(fff-32));
+	for(i=2;i<=n;i++){
+		a[2]=a[0]+a[1];
+		a[0]=a[1];
+		a[1]=a[2];
 	}
 
-	/*
-	while(farh<=upper){
-	celsius = 5*(farh-32)/9;
-	printf("%8.0f\t%8.2f\n",farh,celsius);
-	farh=farh+step;
-	}
-	*/
+	printf("%.0f",a[2]);
 
+goto p1;
 
+	getchar();
 	getchar(); //Wait for enter
 	return 0;
 }

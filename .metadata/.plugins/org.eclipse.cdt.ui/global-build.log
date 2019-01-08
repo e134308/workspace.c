@@ -173,3 +173,119 @@ gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c"
   float farh, celsius;
         ^~~~
 gcc -o my_program_001.exe "src\\main.o" 
+20:48:38 **** Rebuild of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+21:02:45 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+21:05:50 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+21:11:25 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+21:15:42 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file my_program_001.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:16:03 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -o my_program_001.exe "src\\main.o" 
+15:50:22 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+15:51:14 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+15:51:32 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+15:52:04 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+15:58:29 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:28:2: error: a label can only be part of a statement and a declaration is not a statement
+  int n=0;
+  ^~~
+..\src\main.c:35:5: error: expected identifier or '*' before ':' token
+ goto: point_1;
+     ^
+..\src\main.c:27:1: warning: label 'point_1' defined but not used [-Wunused-label]
+ point_1:
+ ^~~~~~~
+15:59:05 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:28:2: error: a label can only be part of a statement and a declaration is not a statement
+  int n=0;
+  ^~~
+15:59:37 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:35:1: error: label 'p1' used but not defined
+ goto p1;
+ ^~~~
+16:04:12 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:29:2: error: a label can only be part of a statement and a declaration is not a statement
+  int n=0;
+  ^~~
+16:07:31 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+16:07:59 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+16:09:46 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+16:10:29 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+16:22:34 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+16:23:40 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+16:26:02 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+16:28:34 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: cannot open output file my_program_001.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:28:42 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -o my_program_001.exe "src\\main.o" 
+16:30:18 **** Incremental Build of configuration Release for project my_program_001 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o my_program_001.exe "src\\main.o" 
